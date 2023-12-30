@@ -8,13 +8,15 @@
     "start": "next start",
     "lint": "next lint",
     "generate": "drizzle-kit generate:pg",
-    "pull":"drizzle-kit introspect:pg",
-    "push":"drizzle-kit push:pg"
+    "pull": "drizzle-kit introspect:pg",
+    "push": "drizzle-kit push:pg"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
     "@neondatabase/serverless": "^0.6.1",
     "@prisma/client": "^5.7.1",
+    "@sanity/image-url": "^1.0.2",
+    "@sanity/vision": "^3.23.4",
     "@vercel/postgres": "^0.5.1",
     "dotenv": "^16.3.1",
     "drizzle-orm": "^0.29.2",
@@ -23,7 +25,9 @@
     "next-themes": "^0.2.1",
     "postgres": "^3.4.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "sanity": "^3.23.4",
+    "styled-components": "^6.1.6"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",
