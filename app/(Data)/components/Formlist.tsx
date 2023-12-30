@@ -41,7 +41,9 @@ const Formlist = () => {
   return (
     <div className="flex flex-col space-y-2">
       {data.data.map((item) => (
-        <div>{item.name}</div>
+        <div
+        key={item.id}
+        >{item.name}</div>
       ))}
     </div>
   );
