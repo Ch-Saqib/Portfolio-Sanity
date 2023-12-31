@@ -15,7 +15,7 @@ export default function Home() {
           <Image
             src={Me}
             alt={""}
-            className="h-48 w-48 rounded-full object-cover object-left-top"
+               className="h-48 w-48 rounded-full object-cover object-right"
           />
           <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
             CH Saqib
